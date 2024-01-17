@@ -1,13 +1,19 @@
 /* Add a border around the image */
 .image-with-border {
     /* Border style: thick, solid line, color purple */
-    border-radius: 5px; /* Optional: Add rounded corners for a softer look */
-  }
+    /* border-style: solid;
+    border-width: thick;
+    border-color: purple; */
+    border: thick solid purple;
+    border-radius: 5px;  /* rounded corners for a softer look */
+}
 
-  .img-container {
-      text-align: center;
-  }
+.img-container {
+    text-align: center;
+}
 
-  .caption {
-      /* Red color in italics */
-  }
+.caption {
+    /* Red color in italics */
+    color: red;
+    font-style: italic;
+}
