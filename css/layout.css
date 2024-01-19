@@ -23,6 +23,7 @@ body {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  /* the text is not underlined*/
 }
 
 /* Links - change color on hover */
@@ -53,16 +54,17 @@ body {
 }
 
 .footer {
-   position: fixed;
-   bottom: 5px;
-   width: 100%;
-   background-color: lightgreen;
-   color: black;
-   text-align: center;
+  position: fixed;
+  bottom: 5px;
+  width: 100%;
+  background-color: lightgreen;
+  color: black;
+  text-align: center;
 }
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
+
   .column.side, .column.middle {
     width: 100%;
   }
